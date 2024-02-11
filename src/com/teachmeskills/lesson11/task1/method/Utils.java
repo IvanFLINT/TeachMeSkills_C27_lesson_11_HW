@@ -47,7 +47,7 @@ public class Utils {
     }
 
     public static void endLineCheck(String st) {
-        if (st.startsWith("1a2b")) {
+        if (st.endsWith("1a2b")) {
             System.out.println("7) Строка заканчивается символами 1a2b");
         } else {
             System.out.println("7) Строка не заканчивается на символы 1a2b");
